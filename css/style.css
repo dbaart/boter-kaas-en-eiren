@@ -1,0 +1,38 @@
+html,
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial", Arial, monospace;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: whitesmoke;
+  gap: 3px;
+  width: 309px;
+}
+
+.field {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(190, 20, 150);
+  cursor: pointer;
+  font-family: 'Arial', Arial, serif;
+  font-size: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
